@@ -1,10 +1,8 @@
 from pathlib import Path
+from useful import user_input_directories
 
 # List of folders to organize into folders by filetype
-folders = [
-    r"C:\Users\52553\OneDrive\Documents",
-    r"C:\Users\52553\Downloads"
-]
+folders = user_input_directories()
 
 for folder in folders:
     folder = Path(folder)  # creates a path object from the string

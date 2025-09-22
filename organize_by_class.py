@@ -1,4 +1,5 @@
 from pathlib import Path
+from useful import user_input_directories
 
 excel = ['XLSM', 'XLSX', 'XLS', 'CSV', 'XLAM', 'XLA']
 photos = ['JPG', 'JPEG', 'PNG', 'GIF', 'SVG', 'BMP']
@@ -17,10 +18,7 @@ secure = ['CER', 'KEY', 'REN', 'REQ']
 # 'all' is a list of all file types
 all = excel + photos + music + video + python + pdf + zip_files + powerpoint + text + apps + html + word + secure
 
-folders = [
-    r"C:\Users\52553\OneDrive\Documents",
-    r"C:\Users\52553\Downloads"
-]
+folders = user_input_directories()
 
 
 def organize(folder_name, file_type_list):
