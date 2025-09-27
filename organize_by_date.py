@@ -27,7 +27,7 @@ def organise_files_by_date():
                     print(notice)
 
 
-    print("\n Completed. Any unmoved files remain because there is already a file with the given name in the target directory.")
+    print("\nCompleted. Any unmoved files remain because there is already a file with the given name in the target directory.")
 
 
 if __name__ == "__main__":
