@@ -1,10 +1,10 @@
-"""
+def user_input_directories()-> list:
+    """
     Provides a way for a user to add the directories that they want to be organised.
     Loops continually until the user 
 
     Returns: Array of directories
-"""
-def user_input_directories()-> list:
+    """
     folders_chosen = False
 
     folders = [
